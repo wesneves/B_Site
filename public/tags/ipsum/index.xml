@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipsum on Website Modelo</title>
+    <link>/tags/ipsum/</link>
+    <description>Recent content in Ipsum on Website Modelo</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Análise de Dados no Universo R: Segundo Post</title>
+      <link>/2026/04/19/post-exemplo-02/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/2026/04/19/post-exemplo-02/</guid>
+      <description>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</description>
+    </item>
+  </channel>
+</rss>

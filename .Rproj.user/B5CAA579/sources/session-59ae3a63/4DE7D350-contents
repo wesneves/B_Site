@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    
+    {{/* Hugo Pipes: Minificação e Cache Inteligente */}}
+    {{ $style := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="nav-brand">{{ .Site.Title }}</a>
+                
+                <ul class="nav-links">
+                    <li><a href="/bio">Bio</a></li>
+                    <li><a href="/post">Postagens</a></li>
+                    <li><a href="/projetos">Projetos</a></li>
+                    <li><a href="/publicacoes">Publicações</a></li>
+                    <li><a href="/cursos">Cursos</a></li>
+                    <li><a href="/livros">Livros</a></li>
+                    <li><a href="/contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+        <div class="container">
+            <hr style="border: 0; border-top: 1px solid var(--border); margin-bottom: 20px;">
+            <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }} • Construído com R & Blogdown</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+---
+title: "Postagens"
+layout: "list"
+---
+
+# Postagens
+
+Aqui você encontrará minhas reflexões sobre o Universo R.

@@ -1,0 +1,10 @@
+---
+title: "Portfólio de Projetos"
+date: 2026-04-19
+---
+
+# Projetos em Destaque
+
+Nesta seção, apresento soluções desenvolvidas para problemas reais, utilizando o ecossistema R. Cada projeto abaixo foca em uma competência específica, desde o tratamento de dados brutos até a entrega de dashboards interativos.
+
+---

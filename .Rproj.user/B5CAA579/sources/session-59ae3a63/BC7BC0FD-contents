@@ -1,0 +1,63 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "article",
+      "body",
+      "div",
+      "em",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "head",
+      "header",
+      "hr",
+      "html",
+      "img",
+      "li",
+      "link",
+      "main",
+      "meta",
+      "nav",
+      "p",
+      "pre",
+      "script",
+      "section",
+      "span",
+      "strong",
+      "time",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "caption",
+      "community-section",
+      "container",
+      "content",
+      "date",
+      "feature-card",
+      "feature-grid",
+      "figure",
+      "hero",
+      "highlight",
+      "nav-brand",
+      "nav-links",
+      "post-card",
+      "post-grid",
+      "resource-box",
+      "tag"
+    ],
+    "ids": [
+      "fig:pie",
+      "including-plots",
+      "lorem-ipsum",
+      "minhas-especialidades",
+      "olá-eu-sou-seu-nome",
+      "projetos-em-destaque",
+      "r-markdown",
+      "r-version",
+      "why-do-we-use-it"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+    <h1 style="margin-bottom: 40px; border-left: 5px solid var(--accent); padding-left: 15px;">
+        {{ .Title }}
+    </h1>
+    
+    <div class="post-grid">
+        {{ range .Pages }}
+        <article class="post-card">
+            <span class="date">{{ .Date.Format "02/01/2006" }}</span>
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>{{ .Summary | truncate 150 }}</p>
+            <a href="{{ .Permalink }}" style="color: var(--accent); font-weight: bold; text-decoration: none; font-size: 0.9rem;">
+                Leia mais →
+            </a>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

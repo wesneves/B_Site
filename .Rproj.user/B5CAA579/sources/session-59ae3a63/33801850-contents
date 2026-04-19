@@ -1,0 +1,46 @@
+baseurl: /
+languageCode: pt-br
+title: "Website Modelo"
+
+# Otimização Inteligente
+publishDir: public
+build:
+  writeStats: true
+  minify: true
+
+ignoreFiles:
+  - _cache$
+
+permalinks:
+  post: /:year/:month/:day/:slug/
+
+menu:
+  main:
+    - name: "Bio"
+      url: "/bio"
+      weight: 1
+    - name: "Postagens"
+      url: "/post"
+      weight: 2
+    - name: "Projetos"
+      url: "/projetos"
+      weight: 3
+    - name: "Publicações"
+      url: "/publicacoes"
+      weight: 4
+    - name: "Cursos"
+      url: "/cursos"
+      weight: 5
+    - name: "Livros"
+      url: "/livros"
+      weight: 6
+    - name: "Contato"
+      url: "/contato"
+      weight: 7
+      
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+      

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+    {{/* Conectando o CSS da pasta assets/ de forma inteligente */}}
+    {{ $style := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            </nav>
+    </header>
+
+    <main>
+        {{/* O conteúdo de cada página será inserido aqui */}}
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+        <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
+    </footer>
+</body>
+</html>

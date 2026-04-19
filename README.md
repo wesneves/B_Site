@@ -14,9 +14,7 @@ Integração com o ecossistema do R
 Suporte a conteúdos dinâmicos e reprodutíveis
 Pronto para publicação em plataformas como Netlify e GitHub Pages
 
-📦 Requisitos
-
-Antes de começar, certifique-se de ter instalado:
+📦 Requisitos: Antes de começar, certifique-se de ter instalado:
 
 R
 RStudio
@@ -36,23 +34,19 @@ Inicie o servidor local:
 blogdown::serve_site()
 Personalize o conteúdo e o tema conforme desejado
 
-🎨 Personalização
+🎨 Personalização: Este modelo foi projetado para ser flexível. Você pode:
 
-Este modelo foi projetado para ser flexível. Você pode:
 Alterar textos, páginas e posts
 Modificar temas e estilos
 Integrar novos recursos (como gráficos, mapas e análises em R)
 Adaptar o site para diferentes finalidades acadêmicas ou profissionais
 
-🌍 Publicação
+🌍 Publicação: O site pode ser facilmente publicado em serviços como:
 
-O site pode ser facilmente publicado em serviços como:
 GitHub Pages
 Netlify
 Posit Connect / Posit Cloud
 
-📖 Finalidade
-Este projeto é ideal para pesquisadores, estudantes e profissionais que desejam compartilhar conhecimento, resultados científicos ou experiências de forma clara, elegante e reprodutível.
+📖 Finalidade: Este projeto é ideal para pesquisadores, estudantes e profissionais que desejam compartilhar conhecimento, resultados científicos ou experiências de forma clara, elegante e reprodutível.
 
-🤝 Contribuições
-Sinta-se à vontade para contribuir com melhorias, sugestões ou novas funcionalidades. Toda colaboração é bem-vinda!
+🤝 Contribuições: Sinta-se à vontade para contribuir com melhorias, sugestões ou novas funcionalidades. Toda colaboração é bem-vinda!

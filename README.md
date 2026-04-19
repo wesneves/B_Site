@@ -25,7 +25,7 @@ Pacote blogdown
 ⚙️ Como usar
 
 Clone este repositório:
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/wesneves/B_Site.git
 Abra o projeto no RStudio
 
 Instale e carregue o blogdown:
